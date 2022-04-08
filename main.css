@@ -1,0 +1,209 @@
+@font-face {
+  font-family: 'Neuro';
+  src: url("./fonts/F37Neuro-Regular.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Osiris';
+  src: url("/fonts/Osiris.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Neuro' !important;
+  font-weight: 300;
+  color: #FFFEFF;
+  background: #010613;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  overflow-x: hidden;
+  padding-bottom: 5vw;
+}
+
+h1 {
+  font-family: Osiris;
+  font-size: 4.8vw;
+  line-height: 0.85;
+}
+
+h2, h3, h4, h5, p, button {
+  font-family: 'Neuro' !important;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.5vw;
+  font-size: 2vw;
+}
+
+p {
+  font-size: 26px;
+  line-height: 1.25;
+}
+
+.header p {
+  padding: 2vw 0;
+}
+
+button {
+  border: 2px #FFFEFF solid;
+  background: transparent;
+  color: #FFFEFF;
+  border-radius: 100px;
+  padding: 00.5vw 2vw;
+}
+
+button:hover {
+  background: #FFFEFF;
+  color: #010613;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: calc(100vw - 15vw);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 50%;
+}
+
+.figures {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  min-width: 100%;
+}
+
+.figures .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1vw;
+}
+
+.figures .item h2 {
+  letter-spacing: 0.3vw;
+  font-size: 1vw;
+}
+
+.figures .item .figure {
+  font-family: Osiris !important;
+  font-size: 4vw;
+}
+
+.main-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33.33% 33.33% 33.33%;
+      grid-template-columns: 33.33% 33.33% 33.33%;
+  min-width: 100%;
+  row-gap: 2vw;
+}
+
+.main-grid .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.5vw;
+  width: calc(100% - 2vw);
+  border: 2px #FFFEFF solid;
+  border-radius: 34px;
+}
+
+.main-grid .item img {
+  width: 100%;
+  height: 25vw;
+  border-radius: 25px;
+}
+
+.main-grid .item .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.5vw;
+  gap: 1.5vw;
+}
+
+.main-grid .item .info p {
+  font-size: 18px;
+}
+/*# sourceMappingURL=main.css.map */
