@@ -704,7 +704,7 @@ main {
     max-width: 100%;
     gap: 2vw;
   }
-  p {
+  p, .icon-grid .logo-grid .item p {
     font-size: 18px;
   }
   h1, .text h1, .section-headline h1 {
@@ -791,6 +791,12 @@ main {
   }
   .image-left img {
     height: 70vw;
+  }
+  .icon-grid .logo-grid .item {
+    height: 36vw;
+  }
+  .icon-grid .logo-grid .item img {
+    height: 10vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
