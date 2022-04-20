@@ -138,7 +138,7 @@ p {
 }
 
 nav {
-  width: calc(100vw - 4vw);
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,7 +148,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2vw 0;
+  padding: 2vw;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -689,6 +689,12 @@ main {
 
 @media (max-width: 575.98px) {
   main {
+    width: calc(100vw - 10vw);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header {
     width: calc(100vw - 20vw);
   }
   nav .logo img {
@@ -764,6 +770,8 @@ main {
   }
   .row {
     row-gap: 8vw;
+    margin-right: 0;
+    margin-left: 0;
   }
   .grid-with-text .grid .item {
     height: 36vw;
@@ -797,6 +805,22 @@ main {
   }
   .icon-grid .logo-grid .item img {
     height: 10vw;
+  }
+  nav {
+    background: #010613;
+  }
+  .contact-block form .col-md-6 {
+    width: 100%;
+    padding: 3vw 8vw;
+    text-align: center;
+  }
+  .contact-block form .col-md-3 {
+    width: calc(50% - var(--bs-gutter-x) * 0.5);
+    padding: 3vw 8vw;
+    text-align: center;
+  }
+  .contact-block form textarea {
+    height: 55vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
