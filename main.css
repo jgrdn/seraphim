@@ -822,5 +822,11 @@ main {
   .contact-block form textarea {
     height: 55vw;
   }
+  .logo-grid .item {
+    height: 36vw;
+  }
+  .logo-grid .item img {
+    height: 5vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */
