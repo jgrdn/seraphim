@@ -707,12 +707,15 @@ main {
   p {
     font-size: 18px;
   }
-  h1, .text h1 {
+  h1, .text h1, .section-headline h1 {
     font-size: 9vw;
   }
-  h2, .text h2 {
+  h2, .text h2, .section-headline h2 {
     font-size: 4vw;
     letter-spacing: 1vw;
+  }
+  h5 {
+    font-size: 6vw;
   }
   button {
     padding: 3vw 8vw;
@@ -760,7 +763,7 @@ main {
     padding-left: calc(var(--bs-gutter-x) * .25) !important;
   }
   .row {
-    row-gap: 4vw;
+    row-gap: 8vw;
   }
   .grid-with-text .grid .item {
     height: 36vw;
@@ -772,6 +775,22 @@ main {
   }
   .grid-with-text {
     row-gap: 8vw !important;
+  }
+  .image-right {
+    width: 80vw;
+    padding: 0;
+    margin-left: 10vw;
+  }
+  .image-right img {
+    height: 70vw;
+  }
+  .image-left {
+    width: 80vw;
+    padding: 0;
+    margin-left: -12vw;
+  }
+  .image-left img {
+    height: 70vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
