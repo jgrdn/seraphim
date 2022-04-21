@@ -129,6 +129,7 @@ body {
 
 .container {
   max-width: 100%;
+  min-height: 650px;
 }
 
 h1 {
@@ -245,6 +246,7 @@ main {
   width: 100vw;
   flex-direction: column;
   max-width: 50%;
+  min-height: 650px;
 }
 
 .figures .item {
@@ -760,6 +762,11 @@ nav {
 
 .logo-grid .item img {
   height: 5vw;
+}
+
+.contact-block{
+  flex-direction: column-reverse;
+  gap: 16vwr;
 }
 
 
